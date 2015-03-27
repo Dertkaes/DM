@@ -1,1 +1,9 @@
 D:\training\diploma\DM\DM\bin\Debug\DM.exe.config
+D:\training\diploma\DM\DM\bin\Debug\DM.exe
+D:\training\diploma\DM\DM\bin\Debug\DM.pdb
+D:\training\diploma\DM\DM\obj\Debug\DM.csprojResolveAssemblyReference.cache
+D:\training\diploma\DM\DM\obj\Debug\DM.Form1.resources
+D:\training\diploma\DM\DM\obj\Debug\DM.Properties.Resources.resources
+D:\training\diploma\DM\DM\obj\Debug\DM.csproj.GenerateResource.Cache
+D:\training\diploma\DM\DM\obj\Debug\DM.exe
+D:\training\diploma\DM\DM\obj\Debug\DM.pdb
