@@ -30,11 +30,11 @@
         {
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.диетаToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.постотретьДиетыToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.добавитьДиетыToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.постотретьДиетыToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.раскладкаToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.посмотретьРакладкиToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.добавитьРаскладкуToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.посмотретьРакладкиToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
@@ -66,17 +66,18 @@
             this.диетаToolStripMenuItem.Size = new System.Drawing.Size(51, 20);
             this.диетаToolStripMenuItem.Text = "Диета";
             // 
-            // постотретьДиетыToolStripMenuItem
-            // 
-            this.постотретьДиетыToolStripMenuItem.Name = "постотретьДиетыToolStripMenuItem";
-            this.постотретьДиетыToolStripMenuItem.Size = new System.Drawing.Size(173, 22);
-            this.постотретьДиетыToolStripMenuItem.Text = "Постотреть диеты";
-            // 
             // добавитьДиетыToolStripMenuItem
             // 
             this.добавитьДиетыToolStripMenuItem.Name = "добавитьДиетыToolStripMenuItem";
             this.добавитьДиетыToolStripMenuItem.Size = new System.Drawing.Size(173, 22);
             this.добавитьДиетыToolStripMenuItem.Text = "Добавить диеты";
+            this.добавитьДиетыToolStripMenuItem.Click += new System.EventHandler(this.добавитьДиетыToolStripMenuItem_Click);
+            // 
+            // постотретьДиетыToolStripMenuItem
+            // 
+            this.постотретьДиетыToolStripMenuItem.Name = "постотретьДиетыToolStripMenuItem";
+            this.постотретьДиетыToolStripMenuItem.Size = new System.Drawing.Size(173, 22);
+            this.постотретьДиетыToolStripMenuItem.Text = "Постотреть диеты";
             // 
             // раскладкаToolStripMenuItem
             // 
@@ -87,17 +88,18 @@
             this.раскладкаToolStripMenuItem.Size = new System.Drawing.Size(55, 20);
             this.раскладкаToolStripMenuItem.Text = "Блюда";
             // 
-            // посмотретьРакладкиToolStripMenuItem
-            // 
-            this.посмотретьРакладкиToolStripMenuItem.Name = "посмотретьРакладкиToolStripMenuItem";
-            this.посмотретьРакладкиToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.посмотретьРакладкиToolStripMenuItem.Text = "Посмотреть блюда";
-            // 
             // добавитьРаскладкуToolStripMenuItem
             // 
             this.добавитьРаскладкуToolStripMenuItem.Name = "добавитьРаскладкуToolStripMenuItem";
             this.добавитьРаскладкуToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.добавитьРаскладкуToolStripMenuItem.Text = "Добавить блюдо";
+            this.добавитьРаскладкуToolStripMenuItem.Click += new System.EventHandler(this.добавитьРаскладкуToolStripMenuItem_Click);
+            // 
+            // посмотретьРакладкиToolStripMenuItem
+            // 
+            this.посмотретьРакладкиToolStripMenuItem.Name = "посмотретьРакладкиToolStripMenuItem";
+            this.посмотретьРакладкиToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.посмотретьРакладкиToolStripMenuItem.Text = "Посмотреть блюда";
             // 
             // button1
             // 

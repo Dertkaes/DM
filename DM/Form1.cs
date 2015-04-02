@@ -16,5 +16,17 @@ namespace DM
         {
             InitializeComponent();
         }
+
+        private void добавитьДиетыToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            AddDiet f2 = new AddDiet();
+            f2.Show();
+        }
+
+        private void добавитьРаскладкуToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            AddDish f2 = new AddDish();
+            f2.Show();
+        }
     }
 }

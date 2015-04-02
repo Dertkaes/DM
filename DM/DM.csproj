@@ -33,6 +33,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="Microsoft.VisualBasic.PowerPacks.Vs, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="MySql.Data, Version=6.9.5.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL" />
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -45,6 +48,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AddDiet.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddDiet.Designer.cs">
+      <DependentUpon>AddDiet.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AddDish.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddDish.Designer.cs">
+      <DependentUpon>AddDish.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -53,6 +68,12 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="AddDiet.resx">
+      <DependentUpon>AddDiet.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddDish.resx">
+      <DependentUpon>AddDish.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>

@@ -7,3 +7,5 @@ D:\training\diploma\DM\DM\obj\Debug\DM.Properties.Resources.resources
 D:\training\diploma\DM\DM\obj\Debug\DM.csproj.GenerateResource.Cache
 D:\training\diploma\DM\DM\obj\Debug\DM.exe
 D:\training\diploma\DM\DM\obj\Debug\DM.pdb
+D:\training\diploma\DM\DM\obj\Debug\DM.AddDiet.resources
+D:\training\diploma\DM\DM\obj\Debug\DM.AddDish.resources
