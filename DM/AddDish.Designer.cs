@@ -44,12 +44,13 @@
             this.numericUpDown5 = new System.Windows.Forms.NumericUpDown();
             this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.label9 = new System.Windows.Forms.Label();
             this.textBox2 = new System.Windows.Forms.TextBox();
+            this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown3)).BeginInit();
@@ -106,16 +107,16 @@
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(171, 144);
+            this.label6.Location = new System.Drawing.Point(132, 144);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(26, 13);
+            this.label6.Size = new System.Drawing.Size(65, 13);
             this.label6.TabIndex = 5;
-            this.label6.Text = "Вес";
+            this.label6.Text = "Вес порции";
             // 
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(158, 171);
+            this.label7.Location = new System.Drawing.Point(160, 171);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(39, 13);
             this.label7.TabIndex = 6;
@@ -210,21 +211,12 @@
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.Column1,
+            this.Column3,
             this.Column2});
             this.dataGridView1.Location = new System.Drawing.Point(204, 195);
             this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(244, 175);
+            this.dataGridView1.Size = new System.Drawing.Size(344, 175);
             this.dataGridView1.TabIndex = 17;
-            // 
-            // Column1
-            // 
-            this.Column1.HeaderText = "Название";
-            this.Column1.Name = "Column1";
-            // 
-            // Column2
-            // 
-            this.Column2.HeaderText = "Вес";
-            this.Column2.Name = "Column2";
             // 
             // button1
             // 
@@ -250,9 +242,9 @@
             this.label9.AutoSize = true;
             this.label9.Location = new System.Drawing.Point(394, 14);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(57, 13);
+            this.label9.Size = new System.Drawing.Size(145, 13);
             this.label9.TabIndex = 20;
-            this.label9.Text = "Описание";
+            this.label9.Text = "Технология приготовления";
             this.label9.Click += new System.EventHandler(this.label9_Click);
             // 
             // textBox2
@@ -262,6 +254,21 @@
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(195, 157);
             this.textBox2.TabIndex = 21;
+            // 
+            // Column1
+            // 
+            this.Column1.HeaderText = "Название";
+            this.Column1.Name = "Column1";
+            // 
+            // Column3
+            // 
+            this.Column3.HeaderText = "Брутто";
+            this.Column3.Name = "Column3";
+            // 
+            // Column2
+            // 
+            this.Column2.HeaderText = "Нетто";
+            this.Column2.Name = "Column2";
             // 
             // AddDish
             // 
@@ -289,7 +296,7 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Name = "AddDish";
-            this.Text = "AddDish";
+            this.Text = "Добавить блюдо";
             this.Load += new System.EventHandler(this.AddDish_Load);
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown2)).EndInit();
@@ -320,11 +327,12 @@
         private System.Windows.Forms.NumericUpDown numericUpDown5;
         private System.Windows.Forms.ComboBox comboBox1;
         private System.Windows.Forms.DataGridView dataGridView1;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column1;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column2;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column1;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column3;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column2;
     }
 }

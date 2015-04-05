@@ -266,7 +266,7 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Name = "AddDiet";
-            this.Text = "AddDiet";
+            this.Text = "Добавить диету";
             this.Load += new System.EventHandler(this.AddDiet_Load);
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown2)).EndInit();
